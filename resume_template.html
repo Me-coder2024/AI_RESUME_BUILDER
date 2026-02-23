@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jake Ryan - Resume</title>
+    <link rel="stylesheet" href="css_temp.css">
+</head>
+
+<body>
+    <div class="controls">
+        <button class="btn" onclick="window.print()">Download PDF</button>
+    </div>
+
+    <div class="resume-paper">
+        <header>
+            <h1>Jake Ryan</h1>
+            <div class="contact-info">
+                <span>123-456-7890</span>
+                <span><a href="mailto:jake@su.edu">jake@su.edu</a></span>
+                <span><a href="https://linkedin.com/in/jake">linkedin.com/in/jake</a></span>
+                <span><a href="https://github.com/jake">github.com/jake</a></span>
+            </div>
+        </header>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Southwestern University</span>
+                    <span class="item-location">Georgetown, TX</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Bachelor of Arts in Computer Science, Minor in Business</span>
+                    <span class="item-date">Aug. 2018 – May 2021</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Blinn College</span>
+                    <span class="item-location">Bryan, TX</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Associate’s in Liberal Arts</span>
+                    <span class="item-date">Aug. 2014 – May 2018</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Undergraduate Research Assistant</span>
+                    <span class="item-date">June 2020 – Present</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Texas A&M University</span>
+                    <span class="item-location">College Station, TX</span>
+                </div>
+                <ul>
+                    <li>Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems
+                    </li>
+                    <li>Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze
+                        GitHub data</li>
+                    <li>Explored ways to visualize GitHub collaboration in a classroom setting</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Information Technology Support Specialist</span>
+                    <span class="item-date">Sep. 2018 – Present</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Southwestern University</span>
+                    <span class="item-location">Georgetown, TX</span>
+                </div>
+                <ul>
+                    <li>Communicate with managers to set up campus computers used on campus</li>
+                    <li>Assess and troubleshoot computer problems brought by students, faculty and staff</li>
+                    <li>Maintain upkeep of computers, classroom equipment, and 200 printers across campus</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Artificial Intelligence Research Assistant</span>
+                    <span class="item-date">May 2019 – July 2019</span>
+                </div>
+                <div class="item-sub-header">
+                    <span>Southwestern University</span>
+                    <span class="item-location">Georgetown, TX</span>
+                </div>
+                <ul>
+                    <li>Explored methods to generate video game dungeons based off of The Legend of Zelda</li>
+                    <li>Developed a game in Java to test the generated dungeons</li>
+                    <li>Contributed 50K+ lines of code to an established codebase via Git</li>
+                    <li>Conducted a human subject study to determine which video game dungeon generation technique is
+                        enjoyable</li>
+                    <li>Wrote an 8-page paper and gave multiple presentations on-campus</li>
+                    <li>Presented virtually to the World Conference on Computational Intelligence</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Gitlytics | <i>Python, Flask, React, PostgreSQL, Docker</i></span>
+                    <span class="item-date">June 2020 – Present</span>
+                </div>
+                <ul>
+                    <li>Developed a full-stack web application using with Flask serving a REST API with React as the
+                        frontend</li>
+                    <li>Implemented GitHub OAuth to get data from user’s repositories</li>
+                    <li>Visualized GitHub data to show collaboration</li>
+                    <li>Used Celery and Redis for asynchronous tasks</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-name">Simple Paintball | <i>Spigot API, Java, Maven, TravisCI, Git</i></span>
+                    <span class="item-date">May 2018 – May 2020</span>
+                </div>
+                <ul>
+                    <li>Developed a Minecraft server plugin to entertain kids during free time for a previous job</li>
+                    <li>Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review</li>
+                    <li>Implemented continuous delivery using TravisCI to build the plugin upon new a release</li>
+                    <li>Collaborated with Minecraft server administrators to suggest features and get feedback about the
+                        plugin</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <p><b>Languages:</b> Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R</p>
+                <p><b>Frameworks:</b> React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI</p>
+                <p><b>Developer Tools:</b> Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio,
+                    PyCharm, IntelliJ, Eclipse</p>
+                <p><b>Libraries:</b> pandas, NumPy, Matplotlib</p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

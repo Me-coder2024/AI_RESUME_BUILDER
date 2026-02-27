@@ -1,8 +1,11 @@
 .env
 __pycache__/
 *.pyc
-scraped_data.json
 final_resume.html
-frontend/node_modules/
-frontend/dist/
+final_resume.pdf
+template.pdf
+scraped_data.json
+venv/
+node_modules/
+dist/
 .DS_Store

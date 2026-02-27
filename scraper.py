@@ -55,7 +55,9 @@ class ResumeScraper:
                     "description": repo["description"],
                     "url": repo["html_url"],
                     "stars": repo["stargazers_count"],
-                    "language": repo["language"]
+                    "language": repo["language"],
+                    "created_at": repo.get("created_at", "").split("T")[0] if repo.get("created_at") else "",
+                    "pushed_at": repo.get("pushed_at", "").split("T")[0] if repo.get("pushed_at") else ""
                 })
                 if repo["language"]:
                     languages.add(repo["language"])
